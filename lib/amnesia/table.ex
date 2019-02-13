@@ -120,6 +120,7 @@ defmodule Amnesia.Table do
         end
       end)
 
+    IO.puts("!!!! args #{inspect(args)}")
     :mnesia.create_table(name, args) |> result
   end
 

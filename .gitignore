@@ -4,3 +4,4 @@ erl_crash.dump
 _build
 Mnesia.*
 /doc
+amnesia.iml
